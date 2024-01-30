@@ -12,10 +12,7 @@ namespace MyApp.Namespace
             return a+b;
         }
         //GET Calculator
-        public decimal Add(decimal a=11, decimal b=8)
-        {
-            return a+b;
-        }
+        
         public decimal Sub(decimal a=11, decimal b=8)
         {
             return a-b;
