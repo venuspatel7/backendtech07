@@ -28,6 +28,10 @@ namespace MyApp.Namespace
         {
             return a/b;
         }
+        public decimal Mod(decimal a=11, decimal b=8)
+        {
+            return a%b;
+        }
     }
 
 }
