@@ -24,6 +24,10 @@ namespace MyApp.Namespace
         {
             return a*b;
         }
+        public decimal Div(decimal a=11, decimal b=8)
+        {
+            return a/b;
+        }
     }
 
 }
