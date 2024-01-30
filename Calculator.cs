@@ -1,11 +1,25 @@
-using Microsoft.AspNetCore.Http;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace MyApp.Namespace
 {
-    [Route("api/[controller]")]
+    [Route("[controller]/[action]")]
     [ApiController]
     public class Calculator : ControllerBase
     {
+        public decimal Add(decimal a=11, decimal b=8)
+        {
+            return a+b;
+        }
+        //GET Calculator
+        public decimal Add(decimal a=11, decimal b=8)
+        {
+            return a+b;
+        }
+        public decimal Sub(decimal a=11, decimal b=8)
+        {
+            return a-b;
+        }
     }
+
 }
